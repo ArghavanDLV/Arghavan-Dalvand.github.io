@@ -111,13 +111,16 @@ nav {
     margin-bottom: 40px;
 }
 
+/*thesis*/
 .content-body {
-    font-size: 19px;
-    color: #222;
+    text-align: left;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .content-body p {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 @keyframes fadeIn {
@@ -161,6 +164,25 @@ nav {
     font-size: 18px;
     line-height: 1.8;
     color: #333;
+}
+
+.Comeback-image img {
+    width: 50%; /* عکس نصف عرضِ ظرف خودش را اشغال می‌کند */
+    max-width: 400px; /* اجازه نمی‌دهد عکس از ۴۰۰ پیکسل بزرگتر شود */
+    height: auto;
+}
+.Comeback-image {
+    display: flex;          /* استفاده از سیستم فلکس‌باکس */
+    justify-content: center; /* تراز کردن محتوا در مرکز (افقی) */
+    align-items: center;     /* تراز کردن در مرکز (عمودی - اختیاری) */
+    margin: 20px 0;         /* ایجاد کمی فاصله در بالا و پایین عکس */
+    width: 100%;            /* اطمینان از اینکه کانتینر تمام عرض را می‌گیرد */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 /*Contact me*/
